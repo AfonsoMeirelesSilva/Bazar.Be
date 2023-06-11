@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bazar.Luiz.Application\Bazar.Luiz.Application.csproj" />
+    <ProjectReference Include="..\Bazar.Luiz.Domain\Bazar.Luiz.Domain.csproj" />
+    <ProjectReference Include="..\Bazar.Luiz.Infrastructure\Bazar.Luiz.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
